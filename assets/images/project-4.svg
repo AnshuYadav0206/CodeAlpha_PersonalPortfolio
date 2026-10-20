@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgP4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="50%" stop-color="#1c2541" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="cardAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" rx="16" fill="url(#bgP4)"/>
+  
+  <!-- Window Header -->
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#1c2541" opacity="0.8"/>
+  <circle cx="28" cy="21" r="6" fill="#ef4444" />
+  <circle cx="48" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="21" r="6" fill="#10b981" />
+  <rect x="180" y="11" width="240" height="20" rx="6" fill="#0b132b" opacity="0.7"/>
+  <text x="300" y="25" fill="#7dd3fc" font-size="11" font-family="sans-serif" text-anchor="middle">app.syncflow.dev/board/sprint-12</text>
+
+  <!-- Board Columns -->
+  <!-- Col 1: To Do -->
+  <rect x="25" y="60" width="168" height="280" rx="10" fill="#111c38" stroke="#1e293b" stroke-width="1"/>
+  <rect x="35" y="70" width="8" height="8" rx="2" fill="#ef4444"/>
+  <text x="50" y="78" fill="#e2e8f0" font-size="12" font-weight="bold" font-family="sans-serif">Backlog (3)</text>
+  
+  <!-- Task item 1 -->
+  <rect x="35" y="95" width="148" height="60" rx="6" fill="#1c2541" stroke="#334155" stroke-width="1"/>
+  <text x="45" y="115" fill="#f8fafc" font-size="11" font-weight="600" font-family="sans-serif">Database Migration</text>
+  <rect x="45" y="128" width="45" height="16" rx="4" fill="#3b82f6" opacity="0.3"/>
+  <text x="67" y="139" fill="#60a5fa" font-size="9" text-anchor="middle">Backend</text>
+
+  <!-- Task item 2 -->
+  <rect x="35" y="165" width="148" height="60" rx="6" fill="#1c2541" stroke="#334155" stroke-width="1"/>
+  <text x="45" y="185" fill="#f8fafc" font-size="11" font-weight="600" font-family="sans-serif">Unit Test Suite v2</text>
+  <rect x="45" y="198" width="35" height="16" rx="4" fill="#10b981" opacity="0.3"/>
+  <text x="62" y="209" fill="#34d399" font-size="9" text-anchor="middle">QA</text>
+
+  <!-- Col 2: In Progress -->
+  <rect x="215" y="60" width="168" height="280" rx="10" fill="#111c38" stroke="#1e293b" stroke-width="1"/>
+  <rect x="225" y="70" width="8" height="8" rx="2" fill="#f59e0b"/>
+  <text x="240" y="78" fill="#e2e8f0" font-size="12" font-weight="bold" font-family="sans-serif">In Progress (2)</text>
+
+  <!-- Task item 3 -->
+  <rect x="225" y="95" width="148" height="75" rx="6" fill="#1c2541" stroke="#0284c7" stroke-width="1"/>
+  <rect x="225" y="95" width="148" height="3" rx="1" fill="url(#cardAccent)"/>
+  <text x="235" y="117" fill="#f8fafc" font-size="11" font-weight="600" font-family="sans-serif">WebSocket Live Sync</text>
+  <text x="235" y="133" fill="#94a3b8" font-size="9" font-family="sans-serif">2-way cursor sharing</text>
+  <rect x="235" y="145" width="55" height="16" rx="4" fill="#8b5cf6" opacity="0.3"/>
+  <text x="262" y="156" fill="#c084fc" font-size="9" text-anchor="middle">Realtime</text>
+
+  <!-- Col 3: Completed -->
+  <rect x="405" y="60" width="168" height="280" rx="10" fill="#111c38" stroke="#1e293b" stroke-width="1"/>
+  <rect x="415" y="70" width="8" height="8" rx="2" fill="#10b981"/>
+  <text x="430" y="78" fill="#e2e8f0" font-size="12" font-weight="bold" font-family="sans-serif">Done (8)</text>
+
+  <!-- Task item 4 -->
+  <rect x="415" y="95" width="148" height="60" rx="6" fill="#1c2541" stroke="#334155" stroke-width="1"/>
+  <text x="425" y="115" fill="#f8fafc" font-size="11" font-weight="600" font-family="sans-serif">OAuth 2.0 Auth</text>
+  <rect x="425" y="128" width="40" height="16" rx="4" fill="#10b981" opacity="0.3"/>
+  <text x="445" y="139" fill="#34d399" font-size="9" text-anchor="middle">Done ✓</text>
+
+  <!-- Task item 5 -->
+  <rect x="415" y="165" width="148" height="60" rx="6" fill="#1c2541" stroke="#334155" stroke-width="1"/>
+  <text x="425" y="185" fill="#f8fafc" font-size="11" font-weight="600" font-family="sans-serif">Design System UI</text>
+  <rect x="425" y="198" width="40" height="16" rx="4" fill="#10b981" opacity="0.3"/>
+  <text x="445" y="209" fill="#34d399" font-size="9" text-anchor="middle">Done ✓</text>
+</svg>

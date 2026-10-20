@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+    <linearGradient id="glowRing" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+    <linearGradient id="faceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd299" />
+      <stop offset="100%" stop-color="#f3a953" />
+    </linearGradient>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4f46e5" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Ambient circles -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#glowRing)" stroke-width="4" stroke-dasharray="8 6" opacity="0.75" />
+  <circle cx="200" cy="200" r="172" fill="#0f172a" filter="url(#shadow)" />
+  <circle cx="200" cy="200" r="168" fill="url(#bgGrad)" opacity="0.25" />
+
+  <!-- Background code decorations -->
+  <text x="70" y="110" font-family="monospace" font-size="18" fill="#818cf8" opacity="0.6">&lt;/&gt;</text>
+  <text x="300" y="130" font-family="monospace" font-size="16" fill="#ec4899" opacity="0.6">{ ... }</text>
+  <text x="60" y="270" font-family="monospace" font-size="14" fill="#38bdf8" opacity="0.5">const dev = true;</text>
+  <text x="290" y="280" font-family="monospace" font-size="14" fill="#a78bfa" opacity="0.5">git:main</text>
+
+  <!-- Developer Avatar -->
+  <!-- Hoodie / Shoulders -->
+  <path d="M 90 372 C 100 290 140 260 200 260 C 260 260 300 290 310 372 Z" fill="url(#hoodieGrad)" />
+  <path d="M 160 265 L 200 315 L 240 265" fill="#4338ca" opacity="0.5" />
+  
+  <!-- Neck -->
+  <rect x="180" y="225" width="40" height="45" rx="10" fill="#e59846" />
+  <path d="M 180 230 C 190 245 210 245 220 230 Z" fill="#cf7f33" opacity="0.4" />
+
+  <!-- Head -->
+  <ellipse cx="200" cy="180" rx="60" ry="70" fill="url(#faceGrad)" />
+
+  <!-- Hair -->
+  <path d="M 136 175 C 130 115 170 100 200 100 C 240 100 270 115 264 175 C 255 130 235 120 200 120 C 165 120 145 135 136 175 Z" fill="#1e293b" />
+  <path d="M 140 150 C 160 125 240 125 260 150 C 240 140 160 140 140 150 Z" fill="#0f172a" />
+
+  <!-- Glasses -->
+  <rect x="150" y="165" width="40" height="28" rx="6" fill="#020617" fill-opacity="0.25" stroke="#38bdf8" stroke-width="4" />
+  <rect x="210" y="165" width="40" height="28" rx="6" fill="#020617" fill-opacity="0.25" stroke="#38bdf8" stroke-width="4" />
+  <line x1="190" y1="179" x2="210" y2="179" stroke="#38bdf8" stroke-width="4" />
+  <line x1="140" y1="175" x2="150" y2="178" stroke="#38bdf8" stroke-width="3" />
+  <line x1="250" y1="178" x2="260" y2="175" stroke="#38bdf8" stroke-width="3" />
+
+  <!-- Eyes behind glasses -->
+  <circle cx="170" cy="179" r="4.5" fill="#1e293b" />
+  <circle cx="230" cy="179" r="4.5" fill="#1e293b" />
+  <circle cx="172" cy="177" r="1.5" fill="#ffffff" />
+  <circle cx="232" cy="177" r="1.5" fill="#ffffff" />
+
+  <!-- Smile -->
+  <path d="M 185 215 Q 200 228 215 215" stroke="#9a3412" stroke-width="3.5" stroke-linecap="round" fill="none" />
+
+  <!-- Modern Headphones -->
+  <path d="M 130 180 C 120 150 140 110 200 110 C 260 110 280 150 270 180" fill="none" stroke="#6366f1" stroke-width="7" stroke-linecap="round" />
+  <rect x="125" y="165" width="16" height="36" rx="8" fill="#ec4899" />
+  <rect x="259" y="165" width="16" height="36" rx="8" fill="#ec4899" />
+</svg>

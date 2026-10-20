@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Aditya Patel | Full Stack Developer & Software Engineer</title>
+  <meta name="description" content="Portfolio of Aditya Patel - Full Stack Developer specializing in responsive web applications, modern UI/UX, scalable backend APIs, and modern web architectures." />
+  <meta name="keywords" content="Aditya Patel, Web Developer, Full Stack Developer, Frontend, Backend, JavaScript, React, Node.js, Portfolio" />
+  <meta name="author" content="Aditya Patel" />
+
+  <!-- Open Graph / Social Media Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aditya Patel | Full Stack Developer" />
+  <meta property="og:description" content="Explore my portfolio showcasing responsive web design, full-stack projects, skills, and experience." />
+  <meta property="og:image" content="assets/images/project-1.svg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome Icons (CDN with fallback inline SVG support) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Elements -->
+  <div class="blob-container" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Aditya Patel Homepage">
+        <span class="logo-badge">&lt;AP /&gt;</span>
+        <span class="logo-text">Aditya<span class="accent-text">.dev</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><i class="fa-regular fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons: Theme Toggle & Resume & Mobile Menu -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+
+        <!-- Resume Download CTA -->
+        <a href="#resume-modal" class="btn btn-outline-sm d-none-sm" id="open-resume-btn">
+          <i class="fa-solid fa-file-arrow-down"></i> Resume
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="section hero" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="status-pill reveal">
+            <span class="status-dot"></span>
+            <span>Available for new opportunities</span>
+          </div>
+
+          <h1 class="hero-title reveal">
+            Hi, I'm <span class="gradient-text">Aditya Patel</span>
+            <span class="wave-emoji">👋</span>
+          </h1>
+
+          <h2 class="hero-subtitle reveal">
+            I am a <span class="typing-text" id="typing-text"></span>
+            <span class="typing-cursor">|</span>
+          </h2>
+
+          <p class="hero-description reveal">
+            Passionate software developer dedicated to crafting modern, scalable web applications, sleek UI/UX experiences, and robust backend architectures. Turning ideas into interactive digital reality.
+          </p>
+
+          <div class="hero-cta reveal">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get In Touch</span>
+              <i class="fa-regular fa-paper-plane"></i>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials reveal">
+            <span class="social-label">Connect:</span>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter Profile">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="mailto:adityapatel@example.com" class="social-link" aria-label="Send Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Avatar Showcase -->
+        <div class="hero-visual reveal">
+          <div class="avatar-card">
+            <div class="avatar-glow"></div>
+            <div class="avatar-img-wrap">
+              <img src="assets/images/avatar.svg" alt="Aditya Patel - Developer Portrait" class="avatar-img" />
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="float-badge badge-top-right">
+              <div class="badge-icon code-icon"><i class="fa-solid fa-terminal"></i></div>
+              <div class="badge-text">
+                <span class="badge-title">Full Stack</span>
+                <span class="badge-sub">MERN / Next.js</span>
+              </div>
+            </div>
+
+            <div class="float-badge badge-bottom-left">
+              <div class="badge-icon success-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="badge-text">
+                <span class="badge-title">Clean Code</span>
+                <span class="badge-sub">Tested &amp; Scalable</span>
+              </div>
+            </div>
+
+            <div class="float-badge badge-bottom-right">
+              <div class="badge-icon zap-icon"><i class="fa-solid fa-bolt"></i></div>
+              <div class="badge-text">
+                <span class="badge-title">Fast UI</span>
+                <span class="badge-sub">100% Responsive</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <span class="mouse-icon">
+          <span class="wheel"></span>
+        </span>
+        <span class="scroll-text">Scroll Down</span>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <p class="section-tag"><i class="fa-regular fa-user"></i> Know Me Better</p>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">A glimpse into my background, what drives me, and how I engineer solutions.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- About Description & Journey -->
+          <div class="about-card glass reveal">
+            <h3 class="about-heading">
+              <i class="fa-solid fa-laptop-code"></i> Engineering with Passion &amp; Precision
+            </h3>
+            <p>
+              Hello! I'm <strong>Aditya Patel</strong>, a software developer with a knack for solving real-world challenges through elegant, well-architected software. I specialize in building responsive, accessible, and high-performance applications from front to back.
+            </p>
+            <p>
+              My coding journey started with a curiosity about how dynamic systems tick under the hood. Since then, I've designed interactive client experiences, optimized database queries, constructed RESTful microservices, and collaborated across diverse tech stacks.
+            </p>
+            <p>
+              When I'm not writing code, you can find me exploring open-source tools, practicing algorithmic problem solving, reading about emerging AI architectures, or mentoring aspiring developers.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Fast &amp; Responsive Layouts</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Clean &amp; Maintainable Code</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>REST APIs &amp; Modern Databases</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Continuous Learning &amp; Agility</span>
+              </div>
+            </div>
+
+            <div class="about-cta-row">
+              <a href="#contact" class="btn btn-primary">Let's Collaborate</a>
+              <a href="#resume-modal" class="btn btn-outline" id="about-resume-trigger">
+                <i class="fa-solid fa-download"></i> View Resume
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Stats / Metrics -->
+          <div class="stats-column">
+            
+            <div class="stat-card glass reveal" data-delay="100">
+              <div class="stat-icon-wrap"><i class="fa-solid fa-diagram-project"></i></div>
+              <div class="stat-details">
+                <div class="stat-number" data-target="15">0</div>
+                <div class="stat-plus">+</div>
+              </div>
+              <p class="stat-label">Projects Completed</p>
+            </div>
+
+            <div class="stat-card glass reveal" data-delay="200">
+              <div class="stat-icon-wrap"><i class="fa-solid fa-layer-group"></i></div>
+              <div class="stat-details">
+                <div class="stat-number" data-target="12">0</div>
+                <div class="stat-plus">+</div>
+              </div>
+              <p class="stat-label">Technologies Mastered</p>
+            </div>
+
+            <div class="stat-card glass reveal" data-delay="300">
+              <div class="stat-icon-wrap"><i class="fa-solid fa-code-commit"></i></div>
+              <div class="stat-details">
+                <div class="stat-number" data-target="450">0</div>
+                <div class="stat-plus">+</div>
+              </div>
+              <p class="stat-label">Git Commits &amp; Contributions</p>
+            </div>
+
+            <div class="stat-card glass reveal" data-delay="400">
+              <div class="stat-icon-wrap"><i class="fa-solid fa-mug-hot"></i></div>
+              <div class="stat-details">
+                <div class="stat-number" data-target="350">0</div>
+                <div class="stat-plus">+</div>
+              </div>
+              <p class="stat-label">Cups of Coffee</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <p class="section-tag"><i class="fa-solid fa-code"></i> Technical Toolkit</p>
+          <h2 class="section-title">My <span class="gradient-text">Skills</span> &amp; Expertise</h2>
+          <p class="section-subtitle">Technologies, frameworks, and workflows I leverage to build robust software.</p>
+        </div>
+
+        <!-- Skills Filter Tabs -->
+        <div class="filter-controls reveal">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="backend">Backend</button>
+          <button class="filter-btn" data-filter="database">Database &amp; Cloud</button>
+          <button class="filter-btn" data-filter="tools">Tools &amp; DevOps</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skills-grid">
+          
+          <!-- Skill: HTML5 -->
+          <div class="skill-card glass reveal" data-category="frontend">
+            <div class="skill-icon-box html-color"><i class="fa-brands fa-html5"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">HTML5</h4>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 95%;"></div></div>
+              <span class="skill-badge">Semantic &amp; SEO</span>
+            </div>
+          </div>
+
+          <!-- Skill: CSS3 / Modern Layouts -->
+          <div class="skill-card glass reveal" data-category="frontend">
+            <div class="skill-icon-box css-color"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">CSS3 / Flex &amp; Grid</h4>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 90%;"></div></div>
+              <span class="skill-badge">Responsive &amp; Animations</span>
+            </div>
+          </div>
+
+          <!-- Skill: JavaScript -->
+          <div class="skill-card glass reveal" data-category="frontend">
+            <div class="skill-icon-box js-color"><i class="fa-brands fa-js"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">JavaScript (ES6+)</h4>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 92%;"></div></div>
+              <span class="skill-badge">Async, DOM, APIs</span>
+            </div>
+          </div>
+
+          <!-- Skill: React.js -->
+          <div class="skill-card glass reveal" data-category="frontend">
+            <div class="skill-icon-box react-color"><i class="fa-brands fa-react"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">React.js</h4>
+                <span class="skill-percent">88%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 88%;"></div></div>
+              <span class="skill-badge">Hooks, State, SPA</span>
+            </div>
+          </div>
+
+          <!-- Skill: Node.js -->
+          <div class="skill-card glass reveal" data-category="backend">
+            <div class="skill-icon-box node-color"><i class="fa-brands fa-node-js"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">Node.js &amp; Express</h4>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 85%;"></div></div>
+              <span class="skill-badge">REST APIs &amp; Middleware</span>
+            </div>
+          </div>
+
+          <!-- Skill: Python -->
+          <div class="skill-card glass reveal" data-category="backend">
+            <div class="skill-icon-box python-color"><i class="fa-brands fa-python"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">Python</h4>
+                <span class="skill-percent">82%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 82%;"></div></div>
+              <span class="skill-badge">Automation &amp; Scripting</span>
+            </div>
+          </div>
+
+          <!-- Skill: MongoDB -->
+          <div class="skill-card glass reveal" data-category="database">
+            <div class="skill-icon-box mongo-color"><i class="fa-solid fa-leaf"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">MongoDB</h4>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 85%;"></div></div>
+              <span class="skill-badge">NoSQL &amp; Mongoose</span>
+            </div>
+          </div>
+
+          <!-- Skill: SQL / PostgreSQL -->
+          <div class="skill-card glass reveal" data-category="database">
+            <div class="skill-icon-box sql-color"><i class="fa-solid fa-database"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">SQL &amp; PostgreSQL</h4>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 80%;"></div></div>
+              <span class="skill-badge">Relational Modeling</span>
+            </div>
+          </div>
+
+          <!-- Skill: Git & GitHub -->
+          <div class="skill-card glass reveal" data-category="tools">
+            <div class="skill-icon-box git-color"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">Git &amp; GitHub</h4>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 90%;"></div></div>
+              <span class="skill-badge">Version Control &amp; CI/CD</span>
+            </div>
+          </div>
+
+          <!-- Skill: REST APIs & Postman -->
+          <div class="skill-card glass reveal" data-category="tools">
+            <div class="skill-icon-box api-color"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">REST APIs &amp; Postman</h4>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 90%;"></div></div>
+              <span class="skill-badge">Testing &amp; Documentation</span>
+            </div>
+          </div>
+
+          <!-- Skill: Tailwind CSS -->
+          <div class="skill-card glass reveal" data-category="frontend">
+            <div class="skill-icon-box tailwind-color"><i class="fa-solid fa-wind"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">Tailwind CSS</h4>
+                <span class="skill-percent">88%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 88%;"></div></div>
+              <span class="skill-badge">Utility-First UI</span>
+            </div>
+          </div>
+
+          <!-- Skill: Deployment & Cloud -->
+          <div class="skill-card glass reveal" data-category="tools">
+            <div class="skill-icon-box cloud-color"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+            <div class="skill-info">
+              <div class="skill-header">
+                <h4 class="skill-name">Vercel, Netlify &amp; Cloud</h4>
+                <span class="skill-percent">86%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" style="--level: 86%;"></div></div>
+              <span class="skill-badge">Production Deployment</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <p class="section-tag"><i class="fa-solid fa-laptop-code"></i> Portfolio Showcase</p>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications built with clean code, modern UX, and robust architectures.</p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="filter-controls reveal">
+          <button class="project-filter-btn active" data-project-filter="all">All Projects</button>
+          <button class="project-filter-btn" data-project-filter="fullstack">Full Stack</button>
+          <button class="project-filter-btn" data-project-filter="frontend">Frontend / UI</button>
+          <button class="project-filter-btn" data-project-filter="ai">AI &amp; Tools</button>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid" id="projects-grid">
+          
+          <!-- Project 1: DevPulse -->
+          <article class="project-card glass reveal" data-category="fullstack">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-1.svg" alt="DevPulse Dashboard Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="#demo-modal" class="project-overlay-btn open-demo-btn" data-title="DevPulse Analytics" data-desc="Real-time developer metrics and build health monitoring dashboard." aria-label="Quick preview DevPulse">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-category-badge">Full Stack • Analytics</div>
+              <h3 class="project-title">DevPulse - Developer Productivity Platform</h3>
+              <p class="project-description">
+                A unified performance and telemetry dashboard tracking commit velocity, deployment latency, CI/CD pipeline bottlenecks, and developer workflow metrics in real-time.
+              </p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Chart.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: CloudMart -->
+          <article class="project-card glass reveal" data-category="fullstack">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-2.svg" alt="CloudMart Store Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="#demo-modal" class="project-overlay-btn open-demo-btn" data-title="CloudMart Store" data-desc="Modern e-commerce platform with Stripe payments and instant cart syncing." aria-label="Quick preview CloudMart">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-category-badge">E-Commerce • MERN</div>
+              <h3 class="project-title">CloudMart - NextGen E-Commerce Suite</h3>
+              <p class="project-description">
+                Full-featured online store with responsive catalog browsing, persistent cart sync, Stripe checkout integration, admin order management, and instant stock notifications.
+              </p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Stripe API</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: PromptGenius -->
+          <article class="project-card glass reveal" data-category="ai">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-3.svg" alt="PromptGenius AI Studio Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="#demo-modal" class="project-overlay-btn open-demo-btn" data-title="PromptGenius Studio" data-desc="AI-driven engineering assistant with code refactoring and syntax highlighting." aria-label="Quick preview PromptGenius">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-category-badge">AI Application • Web</div>
+              <h3 class="project-title">PromptGenius - AI Code &amp; Prompt Studio</h3>
+              <p class="project-description">
+                An intelligent developer workbench that accelerates coding workflows through structured prompt templates, token estimation, live syntax formatting, and automated unit test generation.
+              </p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Gemini API</span>
+                <span class="tech-tag">Tailwind</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: SyncFlow -->
+          <article class="project-card glass reveal" data-category="frontend">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-4.svg" alt="SyncFlow Kanban Board Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="#demo-modal" class="project-overlay-btn open-demo-btn" data-title="SyncFlow Workspace" data-desc="Interactive drag-and-drop kanban board with real-time state synchronization." aria-label="Quick preview SyncFlow">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-category-badge">Productivity • Frontend</div>
+              <h3 class="project-title">SyncFlow - Realtime Kanban &amp; Sprint Board</h3>
+              <p class="project-description">
+                Intuitive sprint management tool featuring interactive drag-and-drop task reordering, priority tags, markdown notes, deadline alerts, and offline local persistence.
+              </p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">HTML5 / CSS3</span>
+                <span class="tech-tag">Vanilla JS</span>
+                <span class="tech-tag">Drag &amp; Drop API</span>
+                <span class="tech-tag">LocalStorage</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Experience & Education Timeline -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <p class="section-tag"><i class="fa-solid fa-briefcase"></i> My Journey</p>
+          <h2 class="section-title">Experience &amp; <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Milestones and hands-on experience in my professional path.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal" data-delay="100">
+            <div class="timeline-dot"><i class="fa-solid fa-code"></i></div>
+            <div class="timeline-content glass">
+              <div class="timeline-badge">Present</div>
+              <span class="timeline-date">2024 - Present</span>
+              <h3 class="timeline-title">Web Development Intern</h3>
+              <h4 class="timeline-company">CodeAlpha</h4>
+              <p class="timeline-desc">
+                Building responsive web interfaces, optimizing website loading performance, implementing accessible component design systems, and participating in code reviews.
+              </p>
+              <div class="timeline-tags">
+                <span>HTML5 / CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+                <span>Git</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal" data-delay="200">
+            <div class="timeline-dot"><i class="fa-solid fa-laptop"></i></div>
+            <div class="timeline-content glass">
+              <div class="timeline-badge">Freelance</div>
+              <span class="timeline-date">2023 - 2024</span>
+              <h3 class="timeline-title">Full Stack Web Developer</h3>
+              <h4 class="timeline-company">Independent / Client Work</h4>
+              <p class="timeline-desc">
+                Architected customized responsive client portals, optimized search engine visibility, integrated secure authentication systems, and automated deployment workflows.
+              </p>
+              <div class="timeline-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Tailwind CSS</span>
+                <span>REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item reveal" data-delay="300">
+            <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-content glass">
+              <div class="timeline-badge">Academic</div>
+              <span class="timeline-date">2021 - 2025</span>
+              <h3 class="timeline-title">Bachelor of Technology in Computer Science</h3>
+              <h4 class="timeline-company">University Degree</h4>
+              <p class="timeline-desc">
+                Core coursework in Data Structures &amp; Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, and Operating Systems.
+              </p>
+              <div class="timeline-tags">
+                <span>Data Structures</span>
+                <span>Algorithms</span>
+                <span>DBMS</span>
+                <span>Software Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item reveal" data-delay="400">
+            <div class="timeline-dot"><i class="fa-solid fa-certificate"></i></div>
+            <div class="timeline-content glass">
+              <div class="timeline-badge">Certified</div>
+              <span class="timeline-date">2023</span>
+              <h3 class="timeline-title">Full-Stack Web Development Certification</h3>
+              <h4 class="timeline-company">Professional Development</h4>
+              <p class="timeline-desc">
+                Completed comprehensive curriculum in modern frontend architectures, asynchronous JavaScript, server-side development, and database integration.
+              </p>
+              <div class="timeline-tags">
+                <span>Certification</span>
+                <span>Node.js</span>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <p class="section-tag"><i class="fa-regular fa-paper-plane"></i> Let's Connect</p>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Have an opportunity, project idea, or just want to say hi? My inbox is always open!</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-col reveal">
+            
+            <div class="contact-card glass">
+              <div class="contact-card-icon"><i class="fa-regular fa-envelope"></i></div>
+              <div class="contact-card-details">
+                <h4>Email Me</h4>
+                <p>adityapatel@example.com</p>
+                <button class="copy-email-btn" id="copy-email-btn" title="Copy email address">
+                  <i class="fa-regular fa-copy"></i> <span>Copy Address</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-card glass">
+              <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-card-details">
+                <h4>Location</h4>
+                <p>India (Open to Remote &amp; Relocation)</p>
+                <span class="contact-status-tag">UTC +5:30</span>
+              </div>
+            </div>
+
+            <div class="contact-card glass">
+              <div class="contact-card-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-card-details">
+                <h4>LinkedIn</h4>
+                <p>Let's connect professionally</p>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link">
+                  linkedin.com/in/adityapatel <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-card glass">
+              <div class="contact-card-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-card-details">
+                <h4>GitHub</h4>
+                <p>Explore my open source repositories</p>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link">
+                  github.com/adityapatel <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-col glass reveal">
+            <h3 class="form-title">Send a Message</h3>
+            <p class="form-sub">Fill out the form below and I will get back to you within 24 hours.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Doe" required />
+                </div>
+                <span class="error-msg" id="name-error">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. john@example.com" required />
+                </div>
+                <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-pen-to-square input-icon"></i>
+                  <input type="text" id="subject" name="subject" class="form-input" placeholder="Project Inquiry / Job Opportunity" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message <span class="required">*</span></label>
+                <div class="input-wrap textarea-wrap">
+                  <i class="fa-regular fa-comment-dots input-icon"></i>
+                  <textarea id="message" name="message" rows="5" class="form-input" placeholder="Tell me about your project or inquiry..." required></textarea>
+                </div>
+                <span class="error-msg" id="message-error">Please write a brief message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                <span class="btn-text">Send Message</span>
+                <i class="fa-regular fa-paper-plane btn-icon"></i>
+                <span class="spinner" id="form-spinner"></span>
+              </button>
+
+            </form>
+
+            <div class="form-status-alert" id="form-status-alert" role="alert" aria-live="polite"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo" aria-label="Aditya Patel">
+          <span class="logo-badge">&lt;AP /&gt;</span>
+          <span class="logo-text">Aditya<span class="accent-text">.dev</span></span>
+        </a>
+        <p class="footer-tagline">
+          Designing and crafting high quality, scalable web experiences with precision and love for clean architecture.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h5 class="footer-col-title">Quick Links</h5>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social-col">
+        <h5 class="footer-col-title">Stay Connected</h5>
+        <div class="footer-social-links">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="mailto:adityapatel@example.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+        <p class="codealpha-tag"><i class="fa-solid fa-code-branch"></i> Built for CodeAlpha Internship Task 3</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© <span id="current-year"></span> Aditya Patel. All rights reserved.</p>
+        <p>Crafted with HTML5, CSS3 &amp; Vanilla JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll To Top Button -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll to top of page" title="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Interactive Resume Modal -->
+  <div class="modal-backdrop" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+    <div class="modal-card glass">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <i class="fa-regular fa-file-lines modal-icon"></i>
+          <h3 id="resume-modal-title">Curriculum Vitae • Aditya Patel</h3>
+        </div>
+        <button class="modal-close-btn" id="close-resume-btn" aria-label="Close Resume Modal">&times;</button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="resume-preview-sheet">
+          <div class="sheet-header">
+            <div>
+              <h2>ADITYA PATEL</h2>
+              <p class="sheet-subtitle">Full Stack Developer | Software Engineer</p>
+            </div>
+            <div class="sheet-contact">
+              <p><i class="fa-solid fa-envelope"></i> adityapatel@example.com</p>
+              <p><i class="fa-solid fa-location-dot"></i> India</p>
+              <p><i class="fa-brands fa-github"></i> github.com/adityapatel</p>
+            </div>
+          </div>
+
+          <hr class="sheet-divider" />
+
+          <div class="sheet-section">
+            <h4>PROFESSIONAL SUMMARY</h4>
+            <p>
+              Motivated Full Stack Web Developer skilled in HTML5, CSS3, JavaScript, React, Node.js, and modern REST APIs. Experienced in crafting responsive layouts, optimizing front-end performance, and architecting robust web solutions.
+            </p>
+          </div>
+
+          <div class="sheet-section">
+            <h4>TECHNICAL SKILLS</h4>
+            <p><strong>Languages:</strong> JavaScript (ES6+), Python, HTML5, CSS3, SQL, C++</p>
+            <p><strong>Frameworks &amp; Libraries:</strong> React.js, Node.js, Express.js, Tailwind CSS</p>
+            <p><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL</p>
+            <p><strong>Tools:</strong> Git, GitHub, VS Code, Postman, Vercel, Netlify, Linux</p>
+          </div>
+
+          <div class="sheet-section">
+            <h4>EXPERIENCE</h4>
+            <div class="sheet-item">
+              <div class="sheet-item-row">
+                <strong>Web Development Intern — CodeAlpha</strong>
+                <span>2024 - Present</span>
+              </div>
+              <p>Engineered responsive user interfaces and implemented modern web best practices.</p>
+            </div>
+          </div>
+
+          <div class="sheet-section">
+            <h4>EDUCATION</h4>
+            <div class="sheet-item">
+              <div class="sheet-item-row">
+                <strong>B.Tech in Computer Science and Engineering</strong>
+                <span>2021 - 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-outline" id="modal-close-btn-footer">Close</button>
+        <button class="btn btn-primary" id="download-resume-action">
+          <i class="fa-solid fa-download"></i> Download PDF
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Project Demo Modal -->
+  <div class="modal-backdrop" id="demo-modal" role="dialog" aria-modal="true" aria-labelledby="demo-modal-title">
+    <div class="modal-card glass">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <i class="fa-solid fa-laptop-code modal-icon"></i>
+          <h3 id="demo-modal-title">Project Preview</h3>
+        </div>
+        <button class="modal-close-btn" id="close-demo-btn" aria-label="Close Project Modal">&times;</button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="demo-modal-content">
+          <p id="demo-modal-desc">Detailed project walkthrough.</p>
+          <div class="demo-modal-features">
+            <h5>Key Features:</h5>
+            <ul>
+              <li><i class="fa-solid fa-check-circle"></i> Mobile-first, 100% responsive fluid grid system</li>
+              <li><i class="fa-solid fa-check-circle"></i> High-performance rendering &amp; lazy loaded assets</li>
+              <li><i class="fa-solid fa-check-circle"></i> Clean, modular and reusable component structure</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-outline" id="modal-demo-close">Close</button>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <i class="fa-brands fa-github"></i> Visit Repository
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Main Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>

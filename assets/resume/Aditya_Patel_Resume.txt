@@ -1,0 +1,77 @@
+================================================================================
+                                ADITYA PATEL
+                     Full Stack Developer & Software Engineer
+             Email: adityapatel@example.com | GitHub: github.com/adityapatel
+                LinkedIn: linkedin.com/in/adityapatel | Location: India
+================================================================================
+
+PROFESSIONAL SUMMARY
+--------------------------------------------------------------------------------
+Dedicated and detail-oriented Full Stack Web Developer with experience in building
+responsive, high-performance web applications. Proficient in HTML5, CSS3,
+JavaScript (ES6+), React, Node.js, Express, and modern database management.
+Passionate about clean architecture, scalable microservices, and crafting delightful
+user experiences.
+
+CORE TECHNICAL SKILLS
+--------------------------------------------------------------------------------
+• Languages:          JavaScript (ES6+), TypeScript, Python, HTML5, CSS3/SCSS, SQL
+• Frontend:           React.js, Next.js, Redux Toolkit, Tailwind CSS, Bootstrap
+• Backend:            Node.js, Express.js, RESTful APIs, WebSockets, JWT Auth
+• Databases:          MongoDB, PostgreSQL, MySQL, Redis
+• Tools & DevOps:     Git, GitHub, Docker, Postman, Linux, Vercel, Netlify, Vite
+• Practices:          Responsive Web Design, SEO, Agile/Scrum, CI/CD Pipelines
+
+EXPERIENCE & INTERNSHIPS
+--------------------------------------------------------------------------------
+Web Development Intern | CodeAlpha
+2024 - Present
+• Engineered modern responsive UI components following semantic HTML5 and CSS3
+  grid/flexbox standards.
+• Implemented client-side routing, modular JavaScript logic, and state management.
+• Integrated RESTful endpoints and optimized asset delivery for faster Lighthouse scores.
+
+Freelance Full Stack Developer
+2023 - 2024
+• Designed custom websites and administrative web applications for clients.
+• Integrated Stripe payment gateways, automated mailing webhooks, and MongoDB storage.
+• Configured CI/CD deployment pipelines on Vercel and Netlify.
+
+FEATURED PROJECTS
+--------------------------------------------------------------------------------
+1. DevPulse - Developer Productivity & Telemetry Dashboard
+   • Built an analytics dashboard tracking build durations, git commit frequency,
+     and application health metrics.
+   • Tech Stack: React.js, Node.js, Express, Chart.js, MongoDB.
+
+2. CloudMart - NextGen E-Commerce Suite
+   • Developed a complete shopping experience with category filtering, real-time
+     cart synchronization, and secure Stripe checkout.
+   • Tech Stack: React, Redux, Node.js, Tailwind CSS, Stripe API.
+
+3. PromptGenius - AI Code & Prompt Workbench
+   • Engineered an AI workspace with syntax-highlighted code output, prompt template
+     management, and markdown export.
+   • Tech Stack: Next.js, TypeScript, Gemini API, Tailwind CSS.
+
+4. SyncFlow - Real-time Kanban & Sprint Board
+   • Developed an interactive drag-and-drop task workflow board with column
+     customization and offline localStorage state persistence.
+   • Tech Stack: Vanilla JavaScript, HTML5 Drag & Drop API, CSS3.
+
+EDUCATION
+--------------------------------------------------------------------------------
+Bachelor of Technology in Computer Science & Engineering
+2021 - 2025
+• Core courses: Data Structures & Algorithms, Database Management Systems,
+  Computer Networks, Operating Systems, Object-Oriented Software Design.
+
+CERTIFICATIONS
+--------------------------------------------------------------------------------
+• Full-Stack Web Development Certification (2023)
+• Responsive Web Design Certification - freeCodeCamp (2023)
+• Problem Solving & Algorithmic Foundations (2024)
+
+================================================================================
+                      References available upon request.
+================================================================================
