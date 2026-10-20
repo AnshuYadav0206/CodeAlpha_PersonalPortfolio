@@ -1,67 +1,62 @@
 ================================================================================
                                  ANSHU YADAV
-                     Full Stack Developer - Software Engineer
-             Email: anshuyadav@example.com | GitHub: github.com/anshuyadav
-                LinkedIn: linkedin.com/in/AnshuYadav0206 | Location: India
+                    Frontend Developer - B.Tech CSE Student
+           Email: anshuyadav879586@gmail.com | Mobile: +91 9235936640
+        GitHub: github.com/AnshuYadav0206 | LinkedIn: linkedin.com/in/AnshuYadav0206
+                         Location: Kanpur, UP, India
 ================================================================================
 
-PROFESSIONAL SUMMARY
+ABOUT / SUMMARY
 --------------------------------------------------------------------------------
-Full Stack Web Developer with experience in building responsive web applications.
-Proficient in HTML5, CSS3, JavaScript (ES6+), React, Node.js, Express, and
-relational and NoSQL databases. Focused on clean code, accessible interfaces,
-and RESTful architecture.
-
-CORE TECHNICAL SKILLS
---------------------------------------------------------------------------------
-Languages:          JavaScript (ES6+), TypeScript, Python, C++, HTML5, CSS3, SQL
-Frontend:           React.js, Next.js, Redux, Tailwind CSS
-Backend:            Node.js, Express.js, REST APIs, WebSockets
-Databases:          MongoDB, PostgreSQL, MySQL
-Tools:              Git, GitHub, Docker, Postman, Linux, Vite
-
-EXPERIENCE
---------------------------------------------------------------------------------
-Web Development Intern - CodeAlpha
-2024 - Present
-- Built responsive UI components adhering to HTML5 and CSS3 standards.
-- Implemented client-side routing, state management, and modular JavaScript.
-- Integrated RESTful endpoints and optimized asset delivery for performance.
-
-Freelance Web Developer
-2023 - 2024
-- Developed responsive client websites and administrative portals.
-- Integrated Stripe payment workflows and database persistence.
-- Maintained source control with Git and configured deployments.
-
-FEATURED PROJECTS
---------------------------------------------------------------------------------
-1. DevPulse - Developer Metrics Dashboard
-   - Built a dashboard tracking build duration and service availability.
-   - Stack: React.js, Node.js, Express, MongoDB.
-
-2. CloudMart - E-Commerce Store
-   - Developed an online catalog with cart synchronization and checkout.
-   - Stack: React, Node.js, Stripe API, Tailwind CSS.
-
-3. PromptGenius - Developer Workspace
-   - Developed a code snippet and API prompt testing tool.
-   - Stack: Next.js, TypeScript, Tailwind CSS.
-
-4. SyncFlow - Kanban Task Board
-   - Built a drag-and-drop task workflow board with local persistence.
-   - Stack: JavaScript, HTML5 Drag and Drop API, CSS3.
+Frontend Developer and B.Tech Computer Science and Engineering student at
+CSJM University, Kanpur (Batch 2025 - 2029). Experienced in building clean,
+responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap. Actively
+practicing Data Structures and Algorithms (DSA) and building practical web projects.
 
 EDUCATION
 --------------------------------------------------------------------------------
 Bachelor of Technology in Computer Science and Engineering
-CSJM University, Kanpur (2021 - 2025)
-- Coursework: Data Structures, Algorithms, DBMS, Operating Systems, Networks.
+CSJM University, Kanpur
+Duration: 2025 - 2029
+- Focus: Computer Science Fundamentals, Frontend Development, DSA.
 
-CERTIFICATIONS
+EXPERIENCE
 --------------------------------------------------------------------------------
-- Full-Stack Web Development Certification (2023)
-- Responsive Web Design Certification (2023)
+Web Development Intern - CodeAlpha
+2025 - Present
+- Building responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap.
+- Developing interactive student projects including Calculator, Music Player,
+  and Personal Portfolio.
+- Version control and code collaboration using Git and GitHub.
+
+TECHNICAL SKILLS
+--------------------------------------------------------------------------------
+Role:               Frontend Developer
+Languages:          HTML, CSS, JavaScript
+Frameworks:         Bootstrap
+Problem Solving:    Data Structures and Algorithms (DSA)
+Tools:              Git, GitHub, VS Code
+
+FEATURED PROJECTS
+--------------------------------------------------------------------------------
+1. Calculator Application
+   - Interactive arithmetic calculator supporting basic math operations, input
+     clearing, and responsive keypad controls.
+   - Technologies: HTML, CSS, JavaScript.
+
+2. Web Music Player
+   - Audio player with play, pause, progress seeking bar, track navigation,
+     and responsive controls.
+   - Technologies: HTML5 Audio, CSS, JavaScript.
+
+3. Personal Portfolio Website
+   - Responsive personal portfolio showcasing verified academic projects,
+     frontend skills, resume, and contact channels.
+   - Technologies: HTML, CSS, JavaScript, Bootstrap.
+
+4. Task and To-Do Application
+   - Task tracking application with add, toggle complete, and delete actions
+     backed by browser LocalStorage.
+   - Technologies: HTML, CSS, JavaScript, LocalStorage.
 
 ================================================================================
-

@@ -3,23 +3,24 @@
   <rect x="1" y="1" width="598" height="338" rx="3" fill="none" stroke="#d0d7de" stroke-width="2"/>
   <rect x="0" y="0" width="600" height="44" fill="#ffffff"/>
   <line x1="0" y1="44" x2="600" y2="44" stroke="#d0d7de" stroke-width="1"/>
-  <text x="24" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1f2328">CloudMart Inventory and Order Management</text>
-  <rect x="24" y="62" width="264" height="252" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-  <rect x="40" y="78" width="232" height="110" rx="3" fill="#eef2f6"/>
-  <text x="156" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#656d76" text-anchor="middle">Product Catalog Image</text>
-  <text x="40" y="214" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1f2328">Wireless Mechanical Keyboard</text>
-  <text x="40" y="238" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#656d76">SKU: KB-980 | Inventory: 142 units</text>
-  <rect x="40" y="260" width="90" height="28" rx="3" fill="#0969da"/>
-  <text x="85" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">In Stock</text>
-  <rect x="312" y="62" width="264" height="252" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-  <text x="328" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1f2328">Recent Checkout Transactions</text>
-  <line x1="328" y1="104" x2="560" y2="104" stroke="#e1e4e8" stroke-width="1"/>
-  <text x="328" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1f2328">Order #10492 - Processed</text>
-  <text x="328" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#656d76">Stripe Payment Gateway Verified</text>
-  <line x1="328" y1="164" x2="560" y2="164" stroke="#f0f2f5" stroke-width="1"/>
-  <text x="328" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1f2328">Order #10491 - Processed</text>
-  <text x="328" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#656d76">Stripe Payment Gateway Verified</text>
-  <line x1="328" y1="224" x2="560" y2="224" stroke="#f0f2f5" stroke-width="1"/>
-  <text x="328" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1f2328">Order #10490 - Processed</text>
-  <text x="328" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#656d76">Stripe Payment Gateway Verified</text>
+  <text x="24" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1f2328">Web Music Player</text>
+  <rect x="160" y="60" width="280" height="260" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="235" y="75" width="130" height="110" rx="3" fill="#eef2f6" stroke="#d0d7de" stroke-width="1"/>
+  <circle cx="300" cy="130" r="32" fill="#d0d7de"/>
+  <circle cx="300" cy="130" r="12" fill="#ffffff"/>
+  <text x="300" y="210" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">Acoustic Melody</text>
+  <text x="300" y="228" font-family="system-ui, sans-serif" font-size="11" fill="#656d76" text-anchor="middle">Instrumental Audio Track</text>
+  <rect x="185" y="246" width="230" height="4" rx="2" fill="#e1e4e8"/>
+  <rect x="185" y="246" width="95" height="4" rx="2" fill="#0969da"/>
+  <circle cx="280" cy="248" r="5" fill="#0969da"/>
+  <text x="185" y="262" font-family="ui-monospace, monospace" font-size="10" fill="#656d76">01:42</text>
+  <text x="415" y="262" font-family="ui-monospace, monospace" font-size="10" fill="#656d76" text-anchor="end">03:50</text>
+  <rect x="230" y="274" width="32" height="32" rx="3" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <polygon points="248,284 240,290 248,296" fill="#1f2328"/>
+  <polygon points="252,284 244,290 252,296" fill="#1f2328"/>
+  <rect x="282" y="272" width="36" height="36" rx="3" fill="#0969da"/>
+  <polygon points="296,282 306,290 296,298" fill="#ffffff"/>
+  <rect x="338" y="274" width="32" height="32" rx="3" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <polygon points="348,284 356,290 348,296" fill="#1f2328"/>
+  <polygon points="344,284 352,290 344,296" fill="#1f2328"/>
 </svg>

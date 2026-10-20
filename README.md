@@ -1,30 +1,44 @@
-# Anshu Yadav - Personal Developer Portfolio
+# Anshu Yadav - Frontend Developer Portfolio
 
-A responsive and accessible personal portfolio website built with HTML5, CSS3, and JavaScript for the CodeAlpha Web Development Internship (Task 3).
+A responsive and accessible personal portfolio website built with HTML5, CSS3, JavaScript, and Bootstrap for the CodeAlpha Web Development Internship (Task 3).
 
-## Overview
+## Student Details
 
-This portfolio presents technical projects, core programming skills, academic background, resume details, and direct contact options. The site uses a clean layout designed for readability, fast performance, and cross-device compatibility.
+- Name: Anshu Yadav
+- Degree: B.Tech in Computer Science and Engineering (2025 - 2029)
+- Institution: CSJM University, Kanpur
+- Current Role: Web Development Intern at CodeAlpha
+- Focus: Frontend Developer and Data Structures and Algorithms (DSA)
 
-## Structure
+## Contact Information
+
+- Email: anshuyadav879586@gmail.com
+- Mobile: +91 9235936640
+- GitHub: https://github.com/AnshuYadav0206
+- LinkedIn: https://www.linkedin.com/in/AnshuYadav0206
+
+## Technical Skills
+
+- Role: Frontend Developer
+- Core Technologies: HTML, CSS, JavaScript
+- Framework: Bootstrap
+- Problem Solving: Data Structures and Algorithms (DSA)
+- Tools: Git, GitHub, VS Code
+
+## Featured Projects
+
+1. Calculator Application: Arithmetic calculations with clean responsive keypad controls using HTML, CSS, JavaScript.
+2. Web Music Player: Audio playback interface with play/pause and progress seekbar using HTML5 Audio and JavaScript.
+3. Personal Portfolio Website: Responsive personal website showcasing projects, skills, resume, and contact details for CodeAlpha Task 3.
+4. Task and To-Do Application: Task management application with LocalStorage persistence.
+
+## Project Structure
 
 - index.html: Semantic HTML5 document structure and content sections.
 - css/style.css: Layout rules, responsive breakpoints, and typography.
 - js/script.js: Client-side form validation and navigation menu behavior.
-- assets/images/: Vector mockups and graphics.
-- assets/resume/: Text and document versions of the resume.
-
-## Sections
-
-1. Header: Navigation links, resume download shortcut, and mobile menu toggle.
-2. Hero: Name, professional summary, contact links, and student details.
-3. About: Background, education, and technical focus areas.
-4. Skills: Programming languages, frontend tools, backend frameworks, and development utilities.
-5. Projects: Detailed project descriptions, system diagrams, and repository links.
-6. Experience: Internship work and academic degree timeline.
-7. Resume: Curriculum vitae summary and direct download option.
-8. Contact: Direct communication channels and a validated message submission form.
-9. Footer: Copyright and attribution.
+- assets/images/: Vector mockups and photographs.
+- assets/resume/: Text resume document.
 
 ## Running Locally
 
@@ -45,14 +59,14 @@ To view the project in a web browser:
    git add .
    git commit -m "feat: build personal portfolio"
 2. Create a GitHub repository and link it:
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
+   git remote add origin https://github.com/AnshuYadav0206/<repo-name>.git
    git branch -M main
    git push -u origin main
-3. In the repository settings, go to the Pages section, select the main branch as the source, and save.
+3. In repository settings, navigate to Pages, select the main branch, and save.
 
 ### Netlify
 1. Log in to Netlify.
-2. Drag and drop the project directory into the Netlify dashboard.
+2. Drag and drop the project folder onto the Netlify dashboard.
 3. The site will be published with a live HTTPS address.
 
 ## License

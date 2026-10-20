@@ -3,22 +3,40 @@
   <rect x="1" y="1" width="598" height="338" rx="3" fill="none" stroke="#d0d7de" stroke-width="2"/>
   <rect x="0" y="0" width="600" height="44" fill="#ffffff"/>
   <line x1="0" y1="44" x2="600" y2="44" stroke="#d0d7de" stroke-width="1"/>
-  <text x="24" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1f2328">DevPulse Metrics Console</text>
-  <rect x="470" y="12" width="105" height="22" rx="3" fill="#eef2f6" stroke="#d0d7de" stroke-width="1"/>
-  <text x="522" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#656d76" text-anchor="middle">Status: Active</text>
-  <rect x="24" y="64" width="168" height="74" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-  <text x="40" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#656d76">Build Latency</text>
-  <text x="40" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1f2328">42 ms</text>
-  <rect x="216" y="64" width="168" height="74" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-  <text x="232" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#656d76">Success Rate</text>
-  <text x="232" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0969da">99.9%</text>
-  <rect x="408" y="64" width="168" height="74" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-  <text x="424" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#656d76">Total Endpoints</text>
-  <text x="424" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1f2328">38</text>
-  <rect x="24" y="156" width="552" height="156" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-  <text x="40" y="184" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1f2328">Throughput History (Requests/sec)</text>
-  <line x1="40" y1="280" x2="550" y2="280" stroke="#e1e4e8" stroke-width="1"/>
-  <line x1="40" y1="240" x2="550" y2="240" stroke="#f0f2f5" stroke-width="1"/>
-  <line x1="40" y1="200" x2="550" y2="200" stroke="#f0f2f5" stroke-width="1"/>
-  <polyline points="50,265 110,250 170,258 230,225 290,230 350,210 410,215 470,195 530,202" fill="none" stroke="#0969da" stroke-width="2.5"/>
+  <text x="24" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1f2328">Web Calculator Application</text>
+  <rect x="180" y="60" width="240" height="260" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="195" y="75" width="210" height="45" rx="3" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="390" y="105" font-family="ui-monospace, monospace" font-size="20" font-weight="700" fill="#1f2328" text-anchor="end">1,420.50</text>
+  <rect x="195" y="130" width="45" height="35" rx="3" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="217" y="152" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#cf222e" text-anchor="middle">C</text>
+  <rect x="250" y="130" width="45" height="35" rx="3" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="272" y="152" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1f2328" text-anchor="middle">( )</text>
+  <rect x="305" y="130" width="45" height="35" rx="3" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="327" y="152" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1f2328" text-anchor="middle">%</text>
+  <rect x="360" y="130" width="45" height="35" rx="3" fill="#eef2f6" stroke="#d0d7de" stroke-width="1"/>
+  <text x="382" y="152" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#0969da" text-anchor="middle">/</text>
+  <rect x="195" y="175" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="217" y="197" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">7</text>
+  <rect x="250" y="175" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="272" y="197" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">8</text>
+  <rect x="305" y="175" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="327" y="197" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">9</text>
+  <rect x="360" y="175" width="45" height="35" rx="3" fill="#eef2f6" stroke="#d0d7de" stroke-width="1"/>
+  <text x="382" y="197" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#0969da" text-anchor="middle">*</text>
+  <rect x="195" y="220" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="217" y="242" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">4</text>
+  <rect x="250" y="220" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="272" y="242" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">5</text>
+  <rect x="305" y="220" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="327" y="242" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">6</text>
+  <rect x="360" y="220" width="45" height="35" rx="3" fill="#eef2f6" stroke="#d0d7de" stroke-width="1"/>
+  <text x="382" y="242" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0969da" text-anchor="middle">-</text>
+  <rect x="195" y="265" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="217" y="287" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">1</text>
+  <rect x="250" y="265" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="272" y="287" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">2</text>
+  <rect x="305" y="265" width="45" height="35" rx="3" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="327" y="287" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#1f2328" text-anchor="middle">3</text>
+  <rect x="360" y="265" width="45" height="35" rx="3" fill="#0969da"/>
+  <text x="382" y="287" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">=</text>
 </svg>

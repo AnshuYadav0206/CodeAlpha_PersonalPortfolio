@@ -303,7 +303,7 @@ ul {
   margin-bottom: 0.5rem;
 }
 
-.profile-location, .profile-focus {
+.profile-location, .profile-institution, .profile-focus {
   font-size: 0.84rem;
   color: var(--color-text-main);
 }
