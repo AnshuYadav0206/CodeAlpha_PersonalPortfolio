@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
-  <rect width="600" height="340" rx="4" fill="#f6f8fa"/>
-  <rect x="1" y="1" width="598" height="338" rx="3" fill="none" stroke="#d0d7de" stroke-width="2"/>
+  <rect width="600" height="340" rx="4" fill="#fdf2f8"/>
+  <rect x="1" y="1" width="598" height="338" rx="3" fill="none" stroke="#fbcfe8" stroke-width="2"/>
   <rect x="0" y="0" width="600" height="44" fill="#ffffff"/>
-  <line x1="0" y1="44" x2="600" y2="44" stroke="#d0d7de" stroke-width="1"/>
-  <text x="24" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1f2328">Web Music Player</text>
-  <rect x="160" y="60" width="280" height="260" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-  <rect x="235" y="75" width="130" height="110" rx="3" fill="#eef2f6" stroke="#d0d7de" stroke-width="1"/>
-  <circle cx="300" cy="130" r="32" fill="#d0d7de"/>
+  <line x1="0" y1="44" x2="600" y2="44" stroke="#fbcfe8" stroke-width="1"/>
+  <text x="24" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#db2777">Web Music Player</text>
+  <rect x="160" y="60" width="280" height="260" rx="4" fill="#ffffff" stroke="#fbcfe8" stroke-width="1"/>
+  <rect x="235" y="75" width="130" height="110" rx="3" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="1"/>
+  <circle cx="300" cy="130" r="32" fill="#f472b6"/>
   <circle cx="300" cy="130" r="12" fill="#ffffff"/>
-  <text x="300" y="210" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">Acoustic Melody</text>
-  <text x="300" y="228" font-family="system-ui, sans-serif" font-size="11" fill="#656d76" text-anchor="middle">Instrumental Audio Track</text>
-  <rect x="185" y="246" width="230" height="4" rx="2" fill="#e1e4e8"/>
-  <rect x="185" y="246" width="95" height="4" rx="2" fill="#0969da"/>
-  <circle cx="280" cy="248" r="5" fill="#0969da"/>
-  <text x="185" y="262" font-family="ui-monospace, monospace" font-size="10" fill="#656d76">01:42</text>
-  <text x="415" y="262" font-family="ui-monospace, monospace" font-size="10" fill="#656d76" text-anchor="end">03:50</text>
-  <rect x="230" y="274" width="32" height="32" rx="3" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <polygon points="248,284 240,290 248,296" fill="#1f2328"/>
-  <polygon points="252,284 244,290 252,296" fill="#1f2328"/>
-  <rect x="282" y="272" width="36" height="36" rx="3" fill="#0969da"/>
+  <text x="300" y="210" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#be185d" text-anchor="middle">Acoustic Melody</text>
+  <text x="300" y="228" font-family="system-ui, sans-serif" font-size="11" fill="#9d174d" text-anchor="middle">Instrumental Audio Track</text>
+  <rect x="185" y="246" width="230" height="4" rx="2" fill="#fce7f3"/>
+  <rect x="185" y="246" width="115" height="4" rx="2" fill="#db2777"/>
+  <circle cx="300" cy="248" r="5" fill="#db2777"/>
+  <text x="185" y="262" font-family="ui-monospace, monospace" font-size="10" fill="#be185d">01:42</text>
+  <text x="415" y="262" font-family="ui-monospace, monospace" font-size="10" fill="#be185d" text-anchor="end">03:50</text>
+  <rect x="230" y="274" width="32" height="32" rx="3" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="1"/>
+  <polygon points="248,284 240,290 248,296" fill="#be185d"/>
+  <polygon points="252,284 244,290 252,296" fill="#be185d"/>
+  <rect x="282" y="272" width="36" height="36" rx="3" fill="#db2777"/>
   <polygon points="296,282 306,290 296,298" fill="#ffffff"/>
-  <rect x="338" y="274" width="32" height="32" rx="3" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <polygon points="348,284 356,290 348,296" fill="#1f2328"/>
-  <polygon points="344,284 352,290 344,296" fill="#1f2328"/>
+  <rect x="338" y="274" width="32" height="32" rx="3" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="1"/>
+  <polygon points="348,284 356,290 348,296" fill="#be185d"/>
+  <polygon points="344,284 352,290 344,296" fill="#be185d"/>
 </svg>
