@@ -1,61 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
-  <defs>
-    <linearGradient id="bgP2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#022c22" />
-      <stop offset="50%" stop-color="#064e3b" />
-      <stop offset="100%" stop-color="#0f172a" />
-    </linearGradient>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10b981" />
-      <stop offset="100%" stop-color="#059669" />
-    </linearGradient>
-  </defs>
-
-  <rect width="600" height="360" rx="16" fill="url(#bgP2)"/>
-  
-  <!-- Window Header -->
-  <rect x="0" y="0" width="600" height="42" rx="16" fill="#064e3b" opacity="0.8"/>
-  <circle cx="28" cy="21" r="6" fill="#ef4444" />
-  <circle cx="48" cy="21" r="6" fill="#f59e0b" />
-  <circle cx="68" cy="21" r="6" fill="#10b981" />
-  <rect x="180" y="11" width="240" height="20" rx="6" fill="#022c22" opacity="0.7"/>
-  <text x="300" y="25" fill="#6ee7b7" font-size="11" font-family="sans-serif" text-anchor="middle">store.cloudmart.shop</text>
-
-  <!-- Banner -->
-  <rect x="25" y="58" width="550" height="78" rx="12" fill="#047857" opacity="0.4"/>
-  <text x="50" y="90" fill="#ecfdf5" font-size="16" font-weight="bold" font-family="sans-serif">Summer Flash Sale • 40% Off Tech Gadgets</text>
-  <text x="50" y="112" fill="#a7f3d0" font-size="12" font-family="sans-serif">Instant checkout with Stripe & automated inventory tracking</text>
-  <rect x="470" y="78" width="85" height="34" rx="8" fill="url(#cardGrad)"/>
-  <text x="512" y="100" fill="#ffffff" font-size="12" font-weight="bold" font-family="sans-serif" text-anchor="middle">Shop Now</text>
-
-  <!-- Product Cards Grid -->
-  <!-- Product 1 -->
-  <rect x="25" y="152" width="165" height="185" rx="12" fill="#0f172a" stroke="#047857" stroke-width="1"/>
-  <rect x="40" y="168" width="135" height="85" rx="8" fill="#1e293b"/>
-  <circle cx="107" cy="210" r="28" fill="#059669" opacity="0.3"/>
-  <text x="107" y="215" fill="#34d399" font-size="22" text-anchor="middle">🎧</text>
-  <text x="40" y="275" fill="#f8fafc" font-size="12" font-weight="bold" font-family="sans-serif">Pro Noise Canceling</text>
-  <text x="40" y="295" fill="#10b981" font-size="14" font-weight="bold" font-family="sans-serif">$249.99</text>
-  <rect x="135" y="280" width="40" height="24" rx="6" fill="#10b981"/>
-  <text x="155" y="296" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">+</text>
-
-  <!-- Product 2 -->
-  <rect x="215" y="152" width="165" height="185" rx="12" fill="#0f172a" stroke="#047857" stroke-width="1"/>
-  <rect x="230" y="168" width="135" height="85" rx="8" fill="#1e293b"/>
-  <circle cx="297" cy="210" r="28" fill="#0284c7" opacity="0.3"/>
-  <text x="297" y="215" fill="#38bdf8" font-size="22" text-anchor="middle">⌚</text>
-  <text x="230" y="275" fill="#f8fafc" font-size="12" font-weight="bold" font-family="sans-serif">Smart OLED Watch</text>
-  <text x="230" y="295" fill="#10b981" font-size="14" font-weight="bold" font-family="sans-serif">$179.00</text>
-  <rect x="325" y="280" width="40" height="24" rx="6" fill="#10b981"/>
-  <text x="345" y="296" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">+</text>
-
-  <!-- Product 3 -->
-  <rect x="405" y="152" width="170" height="185" rx="12" fill="#0f172a" stroke="#047857" stroke-width="1"/>
-  <rect x="420" y="168" width="140" height="85" rx="8" fill="#1e293b"/>
-  <circle cx="490" cy="210" r="28" fill="#ec4899" opacity="0.3"/>
-  <text x="490" y="215" fill="#f43f5e" font-size="22" text-anchor="middle">💻</text>
-  <text x="420" y="275" fill="#f8fafc" font-size="12" font-weight="bold" font-family="sans-serif">Ultrabook M3 16"</text>
-  <text x="420" y="295" fill="#10b981" font-size="14" font-weight="bold" font-family="sans-serif">$1,299</text>
-  <rect x="520" y="280" width="40" height="24" rx="6" fill="#10b981"/>
-  <text x="540" y="296" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">+</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <rect width="600" height="340" rx="4" fill="#f6f8fa"/>
+  <rect x="1" y="1" width="598" height="338" rx="3" fill="none" stroke="#d0d7de" stroke-width="2"/>
+  <rect x="0" y="0" width="600" height="44" fill="#ffffff"/>
+  <line x1="0" y1="44" x2="600" y2="44" stroke="#d0d7de" stroke-width="1"/>
+  <text x="24" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1f2328">CloudMart Inventory and Order Management</text>
+  <rect x="24" y="62" width="264" height="252" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="40" y="78" width="232" height="110" rx="3" fill="#eef2f6"/>
+  <text x="156" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#656d76" text-anchor="middle">Product Catalog Image</text>
+  <text x="40" y="214" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1f2328">Wireless Mechanical Keyboard</text>
+  <text x="40" y="238" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#656d76">SKU: KB-980 | Inventory: 142 units</text>
+  <rect x="40" y="260" width="90" height="28" rx="3" fill="#0969da"/>
+  <text x="85" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">In Stock</text>
+  <rect x="312" y="62" width="264" height="252" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="328" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1f2328">Recent Checkout Transactions</text>
+  <line x1="328" y1="104" x2="560" y2="104" stroke="#e1e4e8" stroke-width="1"/>
+  <text x="328" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1f2328">Order #10492 - Processed</text>
+  <text x="328" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#656d76">Stripe Payment Gateway Verified</text>
+  <line x1="328" y1="164" x2="560" y2="164" stroke="#f0f2f5" stroke-width="1"/>
+  <text x="328" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1f2328">Order #10491 - Processed</text>
+  <text x="328" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#656d76">Stripe Payment Gateway Verified</text>
+  <line x1="328" y1="224" x2="560" y2="224" stroke="#f0f2f5" stroke-width="1"/>
+  <text x="328" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1f2328">Order #10490 - Processed</text>
+  <text x="328" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#656d76">Stripe Payment Gateway Verified</text>
 </svg>
