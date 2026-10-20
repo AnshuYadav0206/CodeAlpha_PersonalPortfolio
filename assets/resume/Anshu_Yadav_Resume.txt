@@ -1,8 +1,8 @@
 ================================================================================
-                                ADITYA PATEL
+                                 ANSHU YADAV
                      Full Stack Developer - Software Engineer
-             Email: adityapatel@example.com | GitHub: github.com/adityapatel
-                LinkedIn: linkedin.com/in/adityapatel | Location: India
+             Email: anshuyadav@example.com | GitHub: github.com/anshuyadav
+                LinkedIn: linkedin.com/in/anshuyadav | Location: India
 ================================================================================
 
 PROFESSIONAL SUMMARY

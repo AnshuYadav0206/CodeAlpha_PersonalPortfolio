@@ -1,4 +1,4 @@
-# Aditya Patel - Personal Developer Portfolio
+# Anshu Yadav - Personal Developer Portfolio
 
 A responsive and accessible personal portfolio website built with HTML5, CSS3, and JavaScript for the CodeAlpha Web Development Internship (Task 3).
 
